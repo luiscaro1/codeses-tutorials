@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  overflow-y: scroll;
+}
+
+.Item {
+  margin: 10px 0 10px 0;
+}
+
+.Link {
+  margin-right: 20px;
+}
